@@ -1,0 +1,29 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-red {
+  background-color: crimson;
+  opacity: 0.3;
+}
+
+.circle-green {
+  background-color: chartreuse;
+  opacity: 0.3;
+}
+
+.circle-orange {
+  background-color: coral;
+  opacity: 0.3;
+}
+
+.circle--active {
+  opacity: 1;
+}
+
+.circle:focus {
+  outline: none;
+  border: 8px solid rgba(255, 255, 255, 0.286);
+}
